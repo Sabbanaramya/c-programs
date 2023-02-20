@@ -1,0 +1,25 @@
+#include <stdio.h>
+int main() {
+    int n,ele,sh=0,h=0;
+    scanf("%d",&n);
+    while(n>0){
+    scanf("%d",&ele);
+    if (ele>h)
+    sh=h;
+    h=ele;
+    if((ele>sh)&&(ele<h))
+    sh=ele;
+    n--;
+    }
+    printf("\n Second highest =%d",sh);
+    return 0;
+}
+
+Output:
+5
+5
+8
+9
+7
+2
+Second highest =8
