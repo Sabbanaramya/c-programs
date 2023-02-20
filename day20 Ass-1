@@ -1,0 +1,24 @@
+#include <stdio.h>
+int main() {
+    int n,ele,i,l;
+    scanf("%d",&n);
+    i=1;
+    while(i<=n){
+    scanf("%d",&ele);
+    if (i==1)l=ele;
+    if(ele<l)
+    l=ele;
+    i++;
+    }
+    printf("\n Lowest =%d",l);
+    return 0;
+}
+
+Output:
+5
+15
+20
+5
+24
+17
+Lowest =5
