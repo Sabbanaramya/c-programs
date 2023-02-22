@@ -9,7 +9,8 @@ void main() {
     n=n/10;
   }
   printf("Reversed number = %d", rev);
-  return 0;
 }
+
+Output:
 1543
 Reversed number = 3451
