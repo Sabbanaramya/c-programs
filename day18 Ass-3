@@ -2,7 +2,6 @@
 
 main() {
   int n, i, p = 0;
-  printf("Enter any number n:");
   scanf("%d", &n);
   for (i = 1; i <= n; i++) {
       if (n % i == 0) {
@@ -20,11 +19,6 @@ main() {
 }
 
 
-Output :
-Enter any number n: 5
+Output: 
+5
 n is a prime number
-
-
-Output :
-Enter any number n: 15
-n is a not a prime number 
