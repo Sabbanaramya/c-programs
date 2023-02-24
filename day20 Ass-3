@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+  int num,n,sum1,sum2;
+  sum1=sum2=0;
+  scanf("%d", &n);
+while(n--)
+{
+    scanf("%d",&num);
+    if(num%2==0)sum1=sum1+num;
+    else sum2=sum2+num;
+}
+    printf("\n even sum=%d\n odd sum =%d",sum1,sum2);
+    printf("\nDifference is %d",sum1-sum2);
+  return 0;
+}
+
+Output:
+5
+1 2 3 4 5
+even sum=6
+ odd sum =9
+Difference is -3
