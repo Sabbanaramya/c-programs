@@ -1,0 +1,15 @@
+#include <stdio.h>
+void main() 
+{
+   int n,i;
+   float sum=0;
+   scanf("%d",&n);
+   for(i=1;i<=n;i++)
+   {
+       sum=sum+(float)+1/i;
+   }
+   printf ("%2f",sum);
+   }
+   Output:
+8
+2.71
