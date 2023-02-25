@@ -1,0 +1,25 @@
+#include<studio.h>
+void main()
+{
+int s,e,i,c;
+scanf("%d",&s);
+scanf("%d",&e);
+for(i=s;i<=e;i++)
+{
+if(i%2==1)
+{
+c++;
+if(c==)
+{
+c=0;
+continue;
+}
+printf("%d ",&i);
+}
+}
+}
+Output:
+10
+19
+11 13 17 19
+
