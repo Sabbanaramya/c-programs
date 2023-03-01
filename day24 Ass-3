@@ -1,0 +1,30 @@
+#include<stdio.h>
+int main() 
+{ 
+ int s,e,num,n,arm=0,i,sum,count;
+ scanf("%d%d",&s,&e);
+    for (i = s;i<=e; i++) { 
+        num = i; 
+        sum = i;
+        while (num != 0) { 
+           n = num % 10; 
+           arm = arm +(n*n*n);
+            num = num / 10; 
+        } 
+        if (sum == arm) { 
+            printf("%d\n",i); 
+            count++;
+        }
+        arm = 0; 
+    } 
+    printf("count=%d",count);
+    return 0; 
+}
+Output:
+1 1000
+1
+153
+370
+371
+407
+Count=5
