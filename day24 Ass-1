@@ -1,0 +1,33 @@
+#include <stdio.h>
+void main()
+{
+    int s,e,i,j,x,temp,count= 0;
+    scanf("%d %d", &s, &e);
+    temp =s;
+    if ( s % 2 == 0)
+    {
+        s++;
+    }
+    for (i = s; i <=e; i = i + 2)
+    {
+        x = 0;
+       for(j = 2; j <= i / 2; j++)
+        {
+            if ((i % j) == 0)
+            {
+                x=1;
+                break;
+            }
+        }
+        if (x==0)
+        {
+           printf("%d ",i);
+            count++;
+        }
+    }
+    printf("\ncount=%d",count);
+}
+Output:
+10 20
+11 13 17 19
+Count=4
