@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main() {
+   int i,n,s;
+   scanf("%d",&s);
+   for (i=1;i<=s;i++) 
+{
+      for (n=1;n<=i;n++)
+ {
+         printf("* ");
+      }
+      printf("\n");
+   }
+   return 0;
+}
+
+OUTPUT:
+5
+* 
+* * 
+* * * 
+* * * * 
+* * * * *
