@@ -27,7 +27,8 @@ printf("%d is not a strong number\n",temp);
 
 return 0;
 }
-output: 
- 145 is a strong number
+output:
+145
+145 is a strong number
  
  
