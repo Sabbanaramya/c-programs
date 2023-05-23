@@ -17,7 +17,6 @@ int main()
 		else
 			cnt_adult++;
 		
-		//increase counter
 		count++;
 	}
 	
@@ -26,4 +25,31 @@ int main()
 	printf("Adult age: %d\n",cnt_adult);
 	
 	return 0;
+	} 
+	output: 
+	
+	Enter age of person [1]: 0 
+Enter age of person [2]: 1 
+Enter age of person [3]: 2 
+Enter age of person [4]: 3 
+Enter age of person [5]: 44
+Enter age of person [6]: 55
+Enter age of person [7]: 66
+Enter age of person [8]: 44
+Enter age of person [9]: 12
+Enter age of person [10]: 13 
+Enter age of person [11]: 14 
+Enter age of person [12]: 55 
+Enter age of person [13]: 66 
+Enter age of person [14]: 18 
+Enter age of person [15]: 19 
+Baby age: 4
+School age: 3
+Adult age: 8
+
+	
+	
+	
+	
+	
 }
